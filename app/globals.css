@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 :root{
   --darkBackground:#D9D9D9;
+
+  --ff:'Lato', sans-serif;  
+  --fw-400:400;
+  --fw-700:700;
+
+  --radius: .75rem;
 }
 
+body *{
+  font-family: var(--ff);
+}
+ 

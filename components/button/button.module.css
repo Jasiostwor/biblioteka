@@ -1,0 +1,15 @@
+.btn{
+    border-radius: var(--radius);
+    border: none;
+    margin: 0 auto;
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    transition: all 500ms;
+    padding-block: .35rem;
+    width: 80%;
+}
+
+.btn:hover{
+    transform: scale(115%);
+}
