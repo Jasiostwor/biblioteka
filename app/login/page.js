@@ -1,4 +1,5 @@
-import Form from "../components/notLogged/form/form"
+import Form from "../../components/form/form"
+import  "./Login.css"
 
 export default function Home() {
   return (
