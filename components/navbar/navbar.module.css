@@ -22,9 +22,9 @@
     margin-inline: 1rem;
 }
 
-.SearchInput{
+.iconBtn{
     border: none;
-    background-color: transparent;
+    background: transparent;
 }
 
 @media(min-width:768px){

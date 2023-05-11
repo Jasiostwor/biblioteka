@@ -8,5 +8,12 @@
 .input:active,
 .input:focus{
     outline: none;
-    transform: scale(115%);
+    transform: scale(110%);
+}
+
+@media (min-width:768px){
+.input:active,
+.input:focus{
+    transform: scale(105%);
+    }
 }
