@@ -27,10 +27,22 @@ export default function addBook() {
               onClick={toggleModal}
             />
 
-            <Input placeholder="Tytuł" />
-            <Input placeholder="Autor" />
-            <Input placeholder="Wydawnictwo" />
-            <Input placeholder="Uwagi" />
+            <Input
+              placeholder="Tytuł"
+              name="tytul"
+            />
+            <Input
+              placeholder="Autor"
+              name="autor"
+            />
+            <Input
+              placeholder="Wydawnictwo"
+              name="wydawnictwo"
+            />
+            <Input
+              placeholder="Uwagi"
+              name="uwagi"
+            />
             <button
               type="submit"
               className={styles.submitBtn}>
