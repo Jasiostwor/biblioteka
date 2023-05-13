@@ -6,7 +6,7 @@ import { FaSearch } from "react-icons/fa";
 export default function SearchInput() {
   return (
     <div className={styles.searchContainer}>
-      <Input />
+      <Input placeholder="Wyszukaj książkę" />
       <FaSearch className={styles.searchIcon} />
     </div>
   );

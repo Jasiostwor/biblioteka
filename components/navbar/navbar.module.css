@@ -4,36 +4,5 @@
     align-items: center;
 }
 
-.icon{
-    font-size: 2rem;
-    transition: all 350ms ease-in;
-}
 
-.icon:hover{
-    transform: scale(1.2);
-}
-
-.icon:nth-of-type(1)
-{
-    margin-left: auto;
-}
-
-.iconBook{
-    margin-inline: 1rem;
-}
-
-.iconBtn{
-    border: none;
-    background: transparent;
-}
-
-@media(min-width:768px){
-    .icon{
-        font-size: 3rem;
-    }
-
-    .iconBook{
-        margin-inline: 1.5rem;
-    }
-}
 
