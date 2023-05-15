@@ -4,9 +4,9 @@ import "./page.css"
 
 export default function Home() {
   return (
-    <div className="container">
-<Navbar />
-<h1 className="title">Twoje książki</h1>
+<div className="container">
+  <Navbar />
+    <h1 className="title">Twoje książki</h1>
   <ul>
     <li> <Book /> </li>
     <li> <Book /> </li>

@@ -74,4 +74,8 @@
     .iconBook{
         margin-inline: 1.5rem;
     }
+
+    .AddBookForm{
+        bottom: 20%;
+    }
 }

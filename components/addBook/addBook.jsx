@@ -4,7 +4,7 @@ import styles from "./addBook.module.css";
 import { useState } from "react";
 import Input from "../input/input";
 
-export default function addBook() {
+export default function AddBook() {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -49,7 +49,9 @@ export default function addBook() {
               Dodaj
             </button>
           </form>
-          <div className={styles.overlay}></div>
+          <div
+            className={styles.overlay}
+            onClick={toggleModal}></div>
         </div>
       )}
     </>

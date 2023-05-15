@@ -3,7 +3,7 @@ import { BiUserCircle } from "react-icons/bi";
 import { useState } from "react";
 import styles from "./logoutButton.module.css";
 
-export default function logoutButton() {
+export default function LogoutButton() {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {

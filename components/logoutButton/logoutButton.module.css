@@ -10,6 +10,7 @@
 .iconBtn{
     border: none;
     background: transparent;
+    flex-shrink: 0;
 }
 
 .modal{
