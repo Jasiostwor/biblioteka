@@ -43,13 +43,17 @@ export default function addBook() {
               placeholder="Uwagi"
               name="uwagi"
             />
+
             <button
               type="submit"
               className={styles.submitBtn}>
               Dodaj
             </button>
+
           </form>
+
           <div className={styles.overlay}></div>
+          
         </div>
       )}
     </>
