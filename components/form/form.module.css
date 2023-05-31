@@ -1,0 +1,7 @@
+.form{
+    background-color: var(--darkBackground);
+    padding: 3.5rem;
+    border-radius: var(--radius);
+    display: grid;
+    gap: 1rem;
+}

@@ -1,0 +1,50 @@
+.icon{
+    font-size: 2rem;
+    transition: all 350ms ease-in;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.iconBtn{
+    border: none;
+    background: transparent;
+    flex-shrink: 0;
+}
+
+.modal{
+    position: absolute;
+    background-color:#9F9F9F;
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    right: 1rem;
+    top: 3.5rem;
+    display: grid;
+}
+
+.logoutBtn{
+    background-color: #fff;
+    color: #000;
+    border-radius: var(--radius);
+    border: none;
+    margin-top: .5rem;
+    padding: .5rem;
+    transition: all 350ms linear;
+}
+
+.logoutBtn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media(min-width:768px){
+    .icon{
+        font-size: 3rem;
+    }
+
+    .modal{
+        top: 4.5rem;
+    }
+}
+

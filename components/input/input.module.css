@@ -1,0 +1,19 @@
+.input{
+    border-radius: var(--radius);
+    border: 1px solid gray;
+    padding: .25rem 2rem;
+    transition: all 500ms;
+}
+
+.input:active,
+.input:focus{
+    outline: none;
+    transform: scale(110%);
+}
+
+@media (min-width:768px){
+.input:active,
+.input:focus{
+    transform: scale(105%);
+    }
+}

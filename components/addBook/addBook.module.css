@@ -1,0 +1,81 @@
+.icon{
+    font-size: 2rem;
+    transition: all 350ms ease-in;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.iconBook{
+   margin-inline: 1rem;
+}
+
+.iconBtn{
+    border: none;
+    background: transparent;
+    margin-left: auto;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: gray;
+    opacity: 0.85;
+}
+
+.AddBookForm{
+    display: grid;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    place-content: center;
+    gap: 1rem;
+    border-radius: var(--radius);
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.submitBtn{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: var(--radius);
+    padding: .5rem;
+    transition: all 250ms linear;
+}
+
+.CloseModal{
+    position: fixed;
+    z-index: 9999;
+    font-size: 2rem;
+    right: 0;
+    transition: 200ms linear;
+}
+
+.CloseModal:hover{
+    transform: scale(1.2);
+}
+
+.submitBtn:hover{
+    color: #000;
+    background-color: lightgray;
+}
+
+@media(min-width:768px){
+    .icon{
+        font-size: 3rem;
+    }
+
+    .iconBook{
+        margin-inline: 1.5rem;
+    }
+
+    .AddBookForm{
+        bottom: 20%;
+    }
+}

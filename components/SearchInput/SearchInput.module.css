@@ -1,0 +1,29 @@
+.searchContainer{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.searchIcon{
+    position: absolute;
+    right: 5%;
+    transition: all 250ms ease-in-out;
+}
+
+.searchIcon:hover{
+    transform: scale(1.2);
+}
+
+.searchContainer > input:focus + .searchIcon{
+    transform: scale(1.2);
+}
+
+@media (min-width:768px){
+    .searchContainer > input{
+        width: 500px;
+    }
+
+    .searchIcon{
+        right: 3%;
+    }
+}

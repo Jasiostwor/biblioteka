@@ -1,0 +1,15 @@
+.bookSection{
+    background-color: var(--darkBackground);
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: var(--radius);
+    padding: 1rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookIcon{
+    font-size: 2rem;
+}
